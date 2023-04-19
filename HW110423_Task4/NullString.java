@@ -18,7 +18,7 @@ public class NullString {
                 else {System.out.println("все ок");}
 
             }
-            catch(NullPointerException ex) {System.out.println(ex);}
+            catch(NullPointerException ex) {System.out.println(ex.getMessage());}
             
             
         }
